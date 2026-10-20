@@ -1,0 +1,27 @@
+Cesium Man attribution
+Copyright 2017 Cesium.
+Original model: Cesium Man
+Source: https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CesiumMan
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License terms: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Retrieved: 2026-10-17
+
+piggyback.glb is a modified derivative of the Cesium Man mesh and skeleton.
+Changes: Original logo texture removed. Added eyes, nose, mouth, ears and hair.
+Changed body proportions, materials and clothing. Added a second adult with
+folded legs, shoulder-holding arms and a fitted jersey. Created new in-place
+load-bearing idle and running animations with two-joint leg IK, support hands,
+linear foot stance paths, bent-knee recovery and brief suspension phases.
+
+The Cesium logo and trademarks are not included in this derivative.
+The original model's animation is not used in the game's run_loop.
+
+Locomotion follow-up, 2026-10-17:
+- Added a second articulated 19-bone passenger skeleton.
+- Replaced the rigid upper-back attachment with anatomical skin binding.
+- Kept shoulder grips and thigh support through separate two-joint IK solves.
+- Added restrained delayed torso response and hanging-calf movement.
+- Authored secondary amplitudes; these are not measured adult-running data.
+Reference topology: Graham et al., IJKSS 6(4), 2018, Figure 1.
+https://journals.aiac.org.au/index.php/IJKSS/article/view/4880
